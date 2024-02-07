@@ -12,10 +12,7 @@ Video showing results from the nnUNet model without OF (RGB), our nnUNet model w
 
 https://github.com/MarcosFdzRdz/OFUNet/assets/100223846/17e86d4b-e520-43a2-b5d6-e172bfbc58ad
 
-
-## (Images, and explanation of the introduction)
-
-## Mod tutorial
+## Modifications tutorial
 For the inclusion of the OF into the nnUNet framework, some of the augmentations were disabled.
 The file `"nnUNetTrainer_OF.py"` is the modified trainer which includes these changes and was used for training all the models of our work.
 
