@@ -17,12 +17,9 @@ https://github.com/MarcosFdzRdz/OFUNet/assets/100223846/17e86d4b-e520-43a2-b5d6-
 
 ## Mod tutorial
 For the inclusion of the OF into the nnUNet framework, some of the augmentations were disabled.
-The file "nnUNetTrainer_OF.py" is the modified trainer which includes these changes and was used for training all the models of our work.
+The file `"nnUNetTrainer_OF.py"` is the modified trainer which includes these changes and was used for training all the models of our work.
 
 In order to use it in the [nnUNet_v2](https://github.com/MIC-DKFZ/nnUNet), it must be installed in your computer following [the instructions](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/installation_instructions.md).
-Once installed, the file "nnUNetTrainer_OF.py" must be added to the nnUNetTrainer folder (example: /home/user/nnUNet/nnunetv2/training/nnUNetTrainer).
+Once installed, the file `"nnUNetTrainer_OF.py"` must be added to the nnUNetTrainer folder (example: /home/user/nnUNet/nnunetv2/training/nnUNetTrainer).
 
-Then it must be called adding `-tr nnUNetTrainer_OF` at the end of the training and inference commands `nnUNetv2_train XXX` and `nnUNetv2_predict`.
-
-
-(Moreover, add Trainers from the nnUNet_v2)
+Then follow the regular [usage instructions](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/how_to_use_nnunet.md) but calling the trainer adding `-tr nnUNetTrainer_OF` at the end of the training and inference commands `nnUNetv2_train XXX` and `nnUNetv2_predict`.
