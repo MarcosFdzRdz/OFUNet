@@ -1,6 +1,7 @@
 # OFUNet
 Github from the SPIE 2024 Medical Imaging paper "Exploring optical flow inclusion into nnU-Net framework for surgical instrument segmentation".
-[(Link to paper)](https://arxiv.org/abs/2403.10216)
+[(SPIE poster+paper)](https://doi.org/10.1117/12.3006855)
+[(Link to ArXiv paper)](https://arxiv.org/abs/2403.10216)
 
 
 This work made some minimal modifications to the [nnUNet](https://github.com/MIC-DKFZ/nnUNet) framework to include optical flow (OF) as an additional input.
