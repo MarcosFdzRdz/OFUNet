@@ -1,6 +1,6 @@
 # OFUNet
-Github from the SPIE 2024 Medical Imaging paper "Exploring optical flow inclusion into nnU-Net framework for surgical instrument segmentation".
-[(SPIE poster+paper)](https://doi.org/10.1117/12.3006855)
+Github from the SPIE 2024 Medical Imaging paper "Exploring optical flow inclusion into nnU-Net framework for surgical instrument segmentation". 
+[(SPIE poster+paper)](https://doi.org/10.1117/12.3006855) and 
 [(Link to ArXiv paper)](https://arxiv.org/abs/2403.10216)
 
 
